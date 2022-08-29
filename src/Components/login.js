@@ -14,7 +14,7 @@ let validate = ( event) => {
   else{
     alert("Password must pass creteria")
     let password = document.getElementById("exampleInputPassword1")
-    password.style.borderColor='#28a745';
+    password.style.borderColor='red';
   }
 
 }
